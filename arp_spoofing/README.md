@@ -1,6 +1,6 @@
 # ARP Spoofing
-Attacker first broadcast ARP request to get the victim's MAC address, 
-then send fabricated ARP reply to the victim with `sender_mac`=attacker's MAC address, 
+In a local network, attacker first broadcasts ARP request to get the victim's MAC address, 
+then sends a fabricated ARP reply to the victim with `sender_mac`=attacker's MAC address, 
 `target_mac`=victim's MAC address, `sender_ip`=**gateway's IP address**, 
 `target_ip`=victim's IP address. 
 
