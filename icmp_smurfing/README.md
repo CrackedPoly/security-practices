@@ -1,5 +1,5 @@
 # ICMP Smurfing
-Attacker sends malicious ICMP Pings to some hosts in the Internet. And the 'src_ip' 
+Attacker sends malicious ICMP Pings to some hosts in the Internet. And the `src_ip` 
 field of the malicious packets is replaced with victim's IP address. If the attacker 
 sends a lot in a short time, the victim will be flooded by ICMP Pong traffic.(reflection-based DDoS)
 
